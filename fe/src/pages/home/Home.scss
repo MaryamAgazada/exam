@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.hero{
+    width: 100%;
+    min-height: 600px;
+    background-image: url("https://preview.colorlib.com/theme/florist/img/hero/hero-2.jpg");
+    font-family: "Oswald", sans-serif;
+    .titleDesc{
+    // align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    padding-top:8rem;
+    padding-left: 3rem;
+    p{
+        color: #212529;
+    }
+    .title{
+        font-size: 43px;
+        margin: 0 0 48px;
+        min-height: 120px;
+        max-width:  557px;
+    }
+    .btn{
+        padding: 14px 30px 12px;
+        border-radius: 50px;
+        color: white;
+        background-color: #f45d96;
+        border:  1px solid #f45d96;
+    }
+    // justify-content:flex-end;
+    }
+   
+}
+.benefits{
+    width: 100%;
+    min-height: 212px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+        .benefitCard{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+            .cardTexts{
+                h4{
+                    color: #111111;
+                    margin-bottom: 10px;
+                    font-size: 24px;
+                }  
+            .cardText{
+                max-width: 250px;
+                font-size: 16px;
+                font-family: "Quicksand", sans-serif;
+                color: #444444;
+                font-weight: 400;
+                line-height: 27px;
+                margin: 0 0 15px 0;
+            }
+            }
+            .cardImg{
+ margin-right: 20px;
+            }
+        }
+
+
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    .categoriesCard{
+        min-height: 440px;
+        width: 323px;
+        margin: 0 30px 0px;
+        padding: 0 15px;
+        .text{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+    }
+    .cardFirst{
+        background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-1.jpg");
+       
+    }
+    .cardSecond{
+        background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-2.jpg");
+    }
+    .cardThird{
+        background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-3.jpg");
+    }
+    .cardFourth{
+        background-image: url("https://preview.colorlib.com/theme/florist/img/categories/categories-4.jpg");
+    }
+}
+.about{
+    min-height: 958px;
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card-left{
+        padding: 0 15px;
+        .about-text{
+            margin: 0 0 8px;
+            color: #f45d96;
+            
+        }
+        h2{
+            font-size: 42px;
+    color: #111111;
+    line-height: 1.4;
+            width: 440px;
+            height: 176px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 0;
+        }
+
+    }
+    .card-right{
+        width: 792px;
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 0;
+        }
+    }
+  }
+  .cards-flowers{
+      display: flex;justify-content: center;
+      align-items: center;
+      .card-left-img{
+          display: flex;
+          justify-content: center;
+       
+      }
+      .card-right-img-text{
+          max-width: 652px;
+        //   margin:  0 30px 0 ;
+          box-shadow: 0px 10px 21px rgba(99, 134, 137, 0.16);
+          padding: 100px 90px 105px 70px;
+          margin-left: -95px;
+          margin-top: -70px;
+          margin-bottom: 30px;
+          h2{
+              max-width: 492px;
+              font-size: 32px;
+          }
+          p{
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 30px;
+            max-width: 492px;
+          }
+          .btn{
+            padding: 14px 30px 12px;
+            border-radius: 50px;
+            color: white;
+            background-color: #f45d96;
+            border:  1px solid #f45d96;
+        }
+      }
+  }
+}
+.arrivals{
+    text-align: center;
+    min-height: 900px;
+    .flower{
+        color: #f45d96;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        display: block;
+        margin-bottom: 8px;
+    }
+    h2{
+        font-size: 42px;
+        color: #111111;
+        line-height: 1.4;
+    }
+    
+    .items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .item-list{
+            list-style: none;
+            padding: 16px;
+           
+                &:hover {
+                    color: #f45d96;
+                    transition: 0.3s;
+                
+            }
+        }
+      
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .card{
+            padding: 0 15px;
+        
+        }
+    }
+    .product{
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+.allProduct{
+    background-image: url("https://preview.colorlib.com/theme/florist/img/call-bg.jpg");
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    .customFlower{
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 700;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .description{
+        color: #ffffff;
+    font-size: 60px;
+    line-height: 1.4;
+    margin-bottom: 42px;
+    max-width: 475px;
+    }
+    .btns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn-order{
+            padding: 14px 30px 12px;
+            border-radius: 50px;
+            color:#f45d96;
+            background-color: #ffffff;
+            border: 1px solid white;
+          
+        }
+        .btn{
+            padding: 14px 30px 12px;
+            border-radius: 50px;
+            color: white;
+            background-color: #f45d96;
+            border:  1px solid #f45d96;
+        }
+    }
+    }
